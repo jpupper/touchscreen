@@ -53,4 +53,4 @@ To test the functionality:
 5. Observe that text selection is disabled
 
 
-Coded(prompted ) by Erebus Dangelo
+Coded(prompted ) by ErebusAngelo
