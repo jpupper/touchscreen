@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TouchScreen.js Demo & Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="touchscreen.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>TouchScreen.js Demo & Documentation</h1>
+        
+        <section class="content">
+            <h2>What is TouchScreen.js?</h2>
+            <p>TouchScreen.js is a specialized JavaScript library that controls touch behavior and zoom functionality in web applications. It's particularly useful for kiosk-mode applications and touch-screen interfaces where you need to restrict certain touch behaviors.</p>
+
+            <h2>Key Features</h2>
+            <ul>
+                <li><strong>Multi-touch Prevention</strong> - Blocks gestures like pinch-to-zoom</li>
+                <li><strong>Scale Control</strong> - Disables user scaling</li>
+                <li><strong>Fullscreen Support</strong> - Adds a fullscreen button</li>
+                <li><strong>Touch Parameter Propagation</strong> - Automatically adds touch parameters to links</li>
+                <li><strong>Text Selection Prevention</strong> - Prevents text selection on touch devices</li>
+            </ul>
+
+            <h2>Implementation</h2>
+            <div class="code-block">
+                <p>1. Include the script in your HTML:</p>
+                <code>&lt;script src="touchscreen.js"&gt;&lt;/script&gt;</code>
+            </div>
+
+            <h2>Activation</h2>
+            <p>The script is activated by adding the parameter <strong>touchversion=true</strong> to your URL:</p>
+            <div class="code-block">
+                <code>https://yourwebsite.com/page.html?touchversion=true</code>
+            </div>
+
+            <h2>Testing</h2>
+            <p>To test this demo with touch restrictions enabled, click this link:</p>
+            <div class="code-block">
+                <a href="?touchversion=true">Enable Touch Restrictions</a>
+            </div>
+
+            <h2>How It Works</h2>
+            <ul>
+                <li>When activated with <code>touchversion=true</code>, the script automatically:</li>
+                <li>Prevents multi-touch gestures like pinching</li>
+                <li>Adds meta tags to disable user scaling</li>
+                <li>Shows a fullscreen button in the top-right corner</li>
+                <li>Prevents context menus and text selection</li>
+                <li>Propagates the touch parameter to all HTML links automatically</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
