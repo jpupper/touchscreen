@@ -51,3 +51,6 @@ To test the functionality:
 3. Try to use multi-touch gestures (they should be blocked)
 4. Notice the fullscreen button in the top-right corner
 5. Observe that text selection is disabled
+
+
+Coded(prompted ) by Erebus Dangelo
