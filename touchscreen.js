@@ -135,7 +135,7 @@
       // Crear el botón de pantalla completa
       const fullscreenBtn = document.createElement("button")
       fullscreenBtn.id = "fullscreenBtn"
-      fullscreenBtn.textContent = "Pantalla Completa"
+      fullscreenBtn.textContent = "Fullscreen"
       fullscreenBtn.style.cssText = `
         position: fixed;
         top: 10px;
